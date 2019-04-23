@@ -5,7 +5,7 @@ body {
   margin:           0px;
 }
 
-header{
+header.top{
   background-color: #675c47;
   margin:10px 10px 0px 10px;
   height:           108px;
@@ -83,7 +83,7 @@ div.tableR{
 .tableR{
   display: table-row;
 }
-.drinks{
+#drinks{
   display: table-cell;
   background-color: #efe5d0;
   width:20%;
@@ -143,4 +143,7 @@ nav ul li a:link,nav ul li a:visited{
   color: #954b4b;
   border-bottom: none;
   font-weight: bold;
+}
+a:hover{
+  color: #ffffff;
 }
